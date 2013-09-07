@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03CFEFC617DB77D00019D661 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CFEFC517DB77D00019D661 /* UIKit.framework */; };
+		03CFEFC817DB77D00019D661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CFEFC717DB77D00019D661 /* Foundation.framework */; };
+		03CFEFCA17DB77D00019D661 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CFEFC917DB77D00019D661 /* CoreGraphics.framework */; };
+		03CFEFD017DB77D00019D661 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03CFEFCE17DB77D00019D661 /* InfoPlist.strings */; };
+		03CFEFD217DB77D00019D661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CFEFD117DB77D00019D661 /* main.m */; };
+		03CFEFD617DB77D00019D661 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CFEFD517DB77D00019D661 /* AppDelegate.m */; };
+		03CFEFD817DB77D00019D661 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CFEFD717DB77D00019D661 /* Default.png */; };
+		03CFEFDA17DB77D00019D661 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CFEFD917DB77D00019D661 /* Default@2x.png */; };
+		03CFEFDC17DB77D00019D661 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03CFEFDB17DB77D00019D661 /* Default-568h@2x.png */; };
+		03CFEFDF17DB77D00019D661 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CFEFDE17DB77D00019D661 /* ViewController.m */; };
+		03CFEFE217DB77D00019D661 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03CFEFE017DB77D00019D661 /* ViewController_iPhone.xib */; };
+		03CFEFE517DB77D00019D661 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03CFEFE317DB77D00019D661 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03CFEFC217DB77D00019D661 /* SHAudioPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHAudioPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CFEFC517DB77D00019D661 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03CFEFC717DB77D00019D661 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03CFEFC917DB77D00019D661 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03CFEFCD17DB77D00019D661 /* SHAudioPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHAudioPlayer-Info.plist"; sourceTree = "<group>"; };
+		03CFEFCF17DB77D00019D661 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03CFEFD117DB77D00019D661 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03CFEFD317DB77D00019D661 /* SHAudioPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SHAudioPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		03CFEFD417DB77D00019D661 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03CFEFD517DB77D00019D661 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03CFEFD717DB77D00019D661 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		03CFEFD917DB77D00019D661 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		03CFEFDB17DB77D00019D661 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		03CFEFDD17DB77D00019D661 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03CFEFDE17DB77D00019D661 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03CFEFE117DB77D00019D661 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		03CFEFE417DB77D00019D661 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03CFEFBF17DB77D00019D661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CFEFC617DB77D00019D661 /* UIKit.framework in Frameworks */,
+				03CFEFC817DB77D00019D661 /* Foundation.framework in Frameworks */,
+				03CFEFCA17DB77D00019D661 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03CFEFB917DB77D00019D661 = {
+			isa = PBXGroup;
+			children = (
+				03CFEFCB17DB77D00019D661 /* SHAudioPlayer */,
+				03CFEFC417DB77D00019D661 /* Frameworks */,
+				03CFEFC317DB77D00019D661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03CFEFC317DB77D00019D661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03CFEFC217DB77D00019D661 /* SHAudioPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03CFEFC417DB77D00019D661 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03CFEFC517DB77D00019D661 /* UIKit.framework */,
+				03CFEFC717DB77D00019D661 /* Foundation.framework */,
+				03CFEFC917DB77D00019D661 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03CFEFCB17DB77D00019D661 /* SHAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				03CFEFD417DB77D00019D661 /* AppDelegate.h */,
+				03CFEFD517DB77D00019D661 /* AppDelegate.m */,
+				03CFEFDD17DB77D00019D661 /* ViewController.h */,
+				03CFEFDE17DB77D00019D661 /* ViewController.m */,
+				03CFEFE017DB77D00019D661 /* ViewController_iPhone.xib */,
+				03CFEFE317DB77D00019D661 /* ViewController_iPad.xib */,
+				03CFEFCC17DB77D00019D661 /* Supporting Files */,
+			);
+			path = SHAudioPlayer;
+			sourceTree = "<group>";
+		};
+		03CFEFCC17DB77D00019D661 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03CFEFCD17DB77D00019D661 /* SHAudioPlayer-Info.plist */,
+				03CFEFCE17DB77D00019D661 /* InfoPlist.strings */,
+				03CFEFD117DB77D00019D661 /* main.m */,
+				03CFEFD317DB77D00019D661 /* SHAudioPlayer-Prefix.pch */,
+				03CFEFD717DB77D00019D661 /* Default.png */,
+				03CFEFD917DB77D00019D661 /* Default@2x.png */,
+				03CFEFDB17DB77D00019D661 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03CFEFC117DB77D00019D661 /* SHAudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CFEFE817DB77D00019D661 /* Build configuration list for PBXNativeTarget "SHAudioPlayer" */;
+			buildPhases = (
+				03CFEFBE17DB77D00019D661 /* Sources */,
+				03CFEFBF17DB77D00019D661 /* Frameworks */,
+				03CFEFC017DB77D00019D661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHAudioPlayer;
+			productName = SHAudioPlayer;
+			productReference = 03CFEFC217DB77D00019D661 /* SHAudioPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03CFEFBA17DB77D00019D661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = shouian;
+			};
+			buildConfigurationList = 03CFEFBD17DB77D00019D661 /* Build configuration list for PBXProject "SHAudioPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03CFEFB917DB77D00019D661;
+			productRefGroup = 03CFEFC317DB77D00019D661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03CFEFC117DB77D00019D661 /* SHAudioPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03CFEFC017DB77D00019D661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CFEFD017DB77D00019D661 /* InfoPlist.strings in Resources */,
+				03CFEFD817DB77D00019D661 /* Default.png in Resources */,
+				03CFEFDA17DB77D00019D661 /* Default@2x.png in Resources */,
+				03CFEFDC17DB77D00019D661 /* Default-568h@2x.png in Resources */,
+				03CFEFE217DB77D00019D661 /* ViewController_iPhone.xib in Resources */,
+				03CFEFE517DB77D00019D661 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03CFEFBE17DB77D00019D661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CFEFD217DB77D00019D661 /* main.m in Sources */,
+				03CFEFD617DB77D00019D661 /* AppDelegate.m in Sources */,
+				03CFEFDF17DB77D00019D661 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03CFEFCE17DB77D00019D661 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CFEFCF17DB77D00019D661 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03CFEFE017DB77D00019D661 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CFEFE117DB77D00019D661 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		03CFEFE317DB77D00019D661 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CFEFE417DB77D00019D661 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03CFEFE617DB77D00019D661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03CFEFE717DB77D00019D661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03CFEFE917DB77D00019D661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHAudioPlayer/SHAudioPlayer-Prefix.pch";
+				INFOPLIST_FILE = "SHAudioPlayer/SHAudioPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03CFEFEA17DB77D00019D661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SHAudioPlayer/SHAudioPlayer-Prefix.pch";
+				INFOPLIST_FILE = "SHAudioPlayer/SHAudioPlayer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03CFEFBD17DB77D00019D661 /* Build configuration list for PBXProject "SHAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CFEFE617DB77D00019D661 /* Debug */,
+				03CFEFE717DB77D00019D661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03CFEFE817DB77D00019D661 /* Build configuration list for PBXNativeTarget "SHAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CFEFE917DB77D00019D661 /* Debug */,
+				03CFEFEA17DB77D00019D661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03CFEFBA17DB77D00019D661 /* Project object */;
+}
