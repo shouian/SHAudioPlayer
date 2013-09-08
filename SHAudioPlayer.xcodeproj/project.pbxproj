@@ -19,6 +19,8 @@
 		03CFEFDF17DB77D00019D661 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CFEFDE17DB77D00019D661 /* ViewController.m */; };
 		03CFEFE217DB77D00019D661 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03CFEFE017DB77D00019D661 /* ViewController_iPhone.xib */; };
 		03CFEFE517DB77D00019D661 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03CFEFE317DB77D00019D661 /* ViewController_iPad.xib */; };
+		03CFEFEC17DB77DC0019D661 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CFEFEB17DB77DC0019D661 /* AudioToolbox.framework */; };
+		03CFEFEF17DB77FF0019D661 /* SHAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CFEFEE17DB77FF0019D661 /* SHAudioPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,9 @@
 		03CFEFDE17DB77D00019D661 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		03CFEFE117DB77D00019D661 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		03CFEFE417DB77D00019D661 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		03CFEFEB17DB77DC0019D661 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		03CFEFED17DB77FF0019D661 /* SHAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHAudioPlayer.h; sourceTree = "<group>"; };
+		03CFEFEE17DB77FF0019D661 /* SHAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHAudioPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03CFEFEC17DB77DC0019D661 /* AudioToolbox.framework in Frameworks */,
 				03CFEFC617DB77D00019D661 /* UIKit.framework in Frameworks */,
 				03CFEFC817DB77D00019D661 /* Foundation.framework in Frameworks */,
 				03CFEFCA17DB77D00019D661 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +64,7 @@
 		03CFEFB917DB77D00019D661 = {
 			isa = PBXGroup;
 			children = (
+				03CFEFEB17DB77DC0019D661 /* AudioToolbox.framework */,
 				03CFEFCB17DB77D00019D661 /* SHAudioPlayer */,
 				03CFEFC417DB77D00019D661 /* Frameworks */,
 				03CFEFC317DB77D00019D661 /* Products */,
@@ -89,6 +96,8 @@
 				03CFEFD517DB77D00019D661 /* AppDelegate.m */,
 				03CFEFDD17DB77D00019D661 /* ViewController.h */,
 				03CFEFDE17DB77D00019D661 /* ViewController.m */,
+				03CFEFED17DB77FF0019D661 /* SHAudioPlayer.h */,
+				03CFEFEE17DB77FF0019D661 /* SHAudioPlayer.m */,
 				03CFEFE017DB77D00019D661 /* ViewController_iPhone.xib */,
 				03CFEFE317DB77D00019D661 /* ViewController_iPad.xib */,
 				03CFEFCC17DB77D00019D661 /* Supporting Files */,
@@ -180,6 +189,7 @@
 				03CFEFD217DB77D00019D661 /* main.m in Sources */,
 				03CFEFD617DB77D00019D661 /* AppDelegate.m in Sources */,
 				03CFEFDF17DB77D00019D661 /* ViewController.m in Sources */,
+				03CFEFEF17DB77FF0019D661 /* SHAudioPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +285,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SHAudioPlayer/SHAudioPlayer-Prefix.pch";
 				INFOPLIST_FILE = "SHAudioPlayer/SHAudioPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -286,6 +297,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SHAudioPlayer/SHAudioPlayer-Prefix.pch";
 				INFOPLIST_FILE = "SHAudioPlayer/SHAudioPlayer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

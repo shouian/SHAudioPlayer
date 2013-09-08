@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "SHAudioPlayer.h"
 
 @interface ViewController ()
+{
+    SHAudioPlayer *audioPlayer;
+}
 
 @end
 
@@ -18,6 +22,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    audioPlayer = [[SHAudioPlayer alloc] initWithAudio:@"/Users/shouian/Desktop/AppDev/AppCodeDevelop/SHAudioPlayer/brave.mp3"];
 }
 
 - (void)didReceiveMemoryWarning
